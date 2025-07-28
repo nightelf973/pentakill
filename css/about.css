@@ -18,7 +18,7 @@ body {
 
     .image-side {
       flex: 3; /* 3/4 */
-      background-image: url('/images/fullband.jpg'); /* Replace with your image path */
+      background-image: url('../images/fullband.jpg'); /* Replace with your image path */
       background-size: cover;
       background-position: center;
     }

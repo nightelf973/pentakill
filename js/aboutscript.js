@@ -6,7 +6,7 @@ function reveal(){
       document.getElementById("aboutextra").innerHTML = this.responseText;
     }
   };
-  request.open("GET", "/txt/reveal.txt", true);
+  request.open("GET", "../txt/reveal.txt", true);
   request.send();
 }
 
