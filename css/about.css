@@ -1,0 +1,69 @@
+#modallink{
+  color:#a6251f;
+}
+body {
+  margin: 0;
+  color: white;
+  background-color: #0b1316;
+}
+.modal-content{
+  background-color: #0b1316;
+}
+    .split-container {
+      height: 100%;
+      display: flex;
+      overflow: hidden;
+      font-size: 17px;
+    }
+
+    .image-side {
+      flex: 3; /* 3/4 */
+      background-image: url('/images/fullband.jpg'); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+    }
+
+    .text-side {
+      flex: 1; /* 1/4 */
+      background: #0b1316; /* solid black or use rgba for transparency */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .text-side h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .text-side p {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    .cta-link {
+      color: #00aaff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .cta-link:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .split-container {
+        flex-direction: column;
+      }
+
+      .image-side {
+        height: 50vh;
+        flex: none;
+      }
+
+      .text-side {
+        flex: none;
+        height: auto;
+      }
+    }

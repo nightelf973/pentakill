@@ -1,0 +1,78 @@
+.refionicons{
+  width: 150px;
+  height: 150px;
+} 
+
+body {
+  background: url('/images/redsmoke.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+.col-xl-81{
+  position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 1350px) {
+    .col-xl-81 {
+        -ms-flex: 0 0 14.28571428571429%;
+        flex: 0 0 14.28571428571429%;
+        max-width: 14.28571428571429%;
+    }
+    .offset-xl-81{
+              margin-left: 0%;
+    }
+        .offset-xl-14{
+              margin-left: 7.14285714285714286%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .offset-xl-81 {
+        margin-left: 37.5%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .col-sm-31 {
+        -ms-flex: 0 0 33.33333333%;
+        flex: 0 0 33.33333333%;
+        max-width: 33.3333333%;
+    }
+        .offset-sm-31{
+              margin-left: 33.33333333%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .col-lg-51 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 33.3333333%;
+    }
+        .offset-lg-51{
+              margin-left: 20%;
+    }
+    .offset-3{
+      margin-left: 0%;
+    }
+}
+.regions{
+  margin: 20px;
+  color: #a48649;
+}
+h2{
+  padding: 20px;
+  padding-bottom: 35px;
+}
+a:hover {
+    color: #a48649;
+}
+.heading{
+  color: white;
+}
+.regionicons:hover{
+  transform: scale(1.05);
+}
+.regionicons{
+  transition: transform .2s;
+}
